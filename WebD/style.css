@@ -3,7 +3,7 @@
             text-align: center;
             color: aliceblue;
         }
-        p {
+        #aboutp {
             color: aliceblue;
         }
         a {
@@ -27,7 +27,7 @@
         }
         /* Add a black background color to the top navigation */
         .topnav {
-                background-color: grey;
+                background-color: goldenrod;
                 overflow: hidden;
             }
 
@@ -49,7 +49,7 @@
 
         /* Add a color to the active/current link */
         .topnav a.active {
-            background-color: #04AA6D;
+            background-color: dark brown;
             color: white;
         }
         
