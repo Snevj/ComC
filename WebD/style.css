@@ -7,7 +7,7 @@
             background-attachment: fixed;
         }
         
-        .vedtext, .sayantext {
+        .vedtext, .sayantext, .dsrtext, .utrtext, .anuragtext {
             text-align: center;
             text-shadow: #ddd;
             font-size: x-large;
@@ -24,7 +24,24 @@
             grid-template-columns: 10fr 1fr 1fr;
             column-gap: 5px;
         }
-            
+        .anuragtext {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 4fr 1fr 1fr;
+            column-gap: 5px;
+        }
+        .utrtext{
+            display: grid;
+            align-items: center;
+            grid-template-columns: 10fr 1fr 1fr;
+            column-gap: 5px;
+        }   
+        .dsrtext {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+        } 
         h3 {
             text-align: center;
             color: aliceblue;
