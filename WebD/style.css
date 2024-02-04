@@ -207,5 +207,14 @@
             to {opacity: 1}
         }
         /* Slideshow container */
+        .footer {
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: goldenrod;
+            color: white;
+            text-align: center;
+        }
         
         
