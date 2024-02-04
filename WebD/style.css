@@ -1,5 +1,5 @@
 
-        body{
+        body {
             background-image: url('TCC\ full\ logo.png');
             background-size: 300px;
             background-repeat: no-repeat;
@@ -72,7 +72,14 @@
             margin-right: auto;
             width: 50%;
         }
-        
+        #welcome    {
+            color: aliceblue;
+            font-family: fantasy;
+        }
+        #welcome_page {
+            color: aliceblue;
+            font-family: fantasy;
+        }
         /* Add a black background color to the top navigation */
         .topnav {
                 background-color:  goldenrod;
@@ -108,7 +115,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
