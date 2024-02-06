@@ -1,111 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Technology Comedy CLub</title>
-        <link rel="stylesheet" href="style.css">
-        
-        <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
 
-            // Next/previous controls
-            function plusSlides(n) {
+<head>
+    <title>Technology Comedy CLub</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
             showSlides(slideIndex += n);
-            }   
+        }
 
-            // Thumbnail image controls
-            function currentSlide(n) {
+        // Thumbnail image controls
+        function currentSlide(n) {
             showSlides(slideIndex = n);
-            }
+        }
 
-            function showSlides(n) {
+        function showSlides(n) {
             let i;
             let slides = document.getElementsByClassName("mySlides");
             let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1} 
-            if (n < 1) {slideIndex = slides.length}
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
             for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none"; 
+                slides[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
-                    }
-            slides[slideIndex-1].style.display = "block"; 
-            dots[slideIndex-1].className += " active";
             }
-        </script>
-    </head>
-    <body>
-        
-        <div class="topnav">
-            <a class="active" href="Index.html">Home</a>
-            <a href="events.html">Events</a>
-            <a href="photos.html">Photos</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="Index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="photos.html">Photos</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+    <div id="background">
+        <img src="TCC full logo.png" width="300px">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="sample1.jpg" style="width:100%">
+            <div class="text">StandUp</div>
         </div>
-        <div id="background">
-            <img src="TCC full logo.png" width="300px" >
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="sample2.jpg" style="width:100%">
+            <div class="text">StandUp</div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="sample1.jpg" style="width:100%">
-                <div class="text">StandUp</div>
-            </div>
-            
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="sample2.jpg" style="width:100%">
-                <div class="text">StandUp</div>
-            </div>
-            
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="sample3.jpg" style="width:100%">
-                <div class="text">Comedic Sketch</div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-        </div> 
-        <br>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="sample3.jpg" style="width:100%">
+            <div class="text">Comedic Sketch</div>
         </div>
-        <br>
-        <br>
-        <br> 
-        <br>     
-        <h2 id="welcome">We welcome you to official website of Technology Comedy Club, IIT Kharagpur.</h2>
-        <p id="welcome_page">
-            Hey there, tech enthusiasts, code wizards, and laughter seekers! 
-            We are thrilled to welcome you to the ultimate destination for all things tech and comedy - the Technology Comedy Club at IIT Kharagpur! 
-            Imagine a bunch of second-year IIT KGP whiz-kids combining their love for technology with a side of humor. Well, you don't have to imagine anymore, because you've just stumbled upon the Tech Laughs Hub, where coding meets comedy, bytes become giggles, and debugging is as entertaining as it gets! 
-            Our journey began as a bunch of friends with a shared passion for both bits and jokes. Now, we've created a space where the world of technology and laughter collide in the most unexpected and hilarious way
-            Whether you're a seasoned coder, a casual tech enthusiast, or just someone looking for a good laugh, you're in the right place. Expect tech-themed stand-up, witty programming jokes, and perhaps a few unexpected surprises along the way. 
-            Get ready to code, laugh, and repeat! Explore our tech-tastically funny content, and don't forget to join the laughter revolution. After all, who said technology can't be amusing?            
-            Thanks for dropping by, let the Tech Laughs begin!
-            Cheers,
-            The Tech Laughs Team at IIT KGP
-        </p>
-        
-          
-        
-        <div class="footer">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="welcome">We welcome you to official website of Technology Comedy Club, IIT Kharagpur.</h2>
+    <p id="welcome_page">
+        Hey there, tech enthusiasts, code wizards, and laughter seekers!
+        We are thrilled to welcome you to the ultimate destination for all things tech and comedy - the Technology
+        Comedy Club at IIT Kharagpur!
+        Imagine a bunch of second-year IIT KGP whiz-kids combining their love for technology with a side of humor. Well,
+        you don't have to imagine anymore, because you've just stumbled upon the Tech Laughs Hub, where coding meets
+        comedy, bytes become giggles, and debugging is as entertaining as it gets!
+        Our journey began as a bunch of friends with a shared passion for both bits and jokes. Now, we've created a
+        space where the world of technology and laughter collide in the most unexpected and hilarious way
+        Whether you're a seasoned coder, a casual tech enthusiast, or just someone looking for a good laugh, you're in
+        the right place. Expect tech-themed stand-up, witty programming jokes, and perhaps a few unexpected surprises
+        along the way.
+        Get ready to code, laugh, and repeat! Explore our tech-tastically funny content, and don't forget to join the
+        laughter revolution. After all, who said technology can't be amusing?
+        Thanks for dropping by, let the Tech Laughs begin!
+        Cheers,
+        Technology Comedy Club, IIT Kharagpur
+    </p>
+
+
+
+    <div class="footer">
+        <div>
+            <div class="social">Our socials <br>
+                <a class="social"
+                    href="https://www.instagram.com/comedy_club_iit_kharagpur?igsh=MWx5cWhzdnU0OXdteg==">Instagram</a><br>
+                <a class="social" href="https://www.facebook.com/comedyclubiitkgp?mibextid=%22%22">Facebook</a> <br>
+                <a class="social" href="https://www.youtube.com/@comedyclubiitkharagpur6857/videos">Youtube</a>
+            </div>
+            <div class="address">
+                <p>Address:-Indian Institute of Technology, Kharagpur, West Bengal</p>
+            </div>
             <div>
-                <p id="social">Our socials <br>  
-                    <a class="social" href="https://www.instagram.com/comedy_club_iit_kharagpur?igsh=MWx5cWhzdnU0OXdteg==">Instagram</a><br>
-                    <a class="social" href="https://www.facebook.com/comedyclubiitkgp?mibextid=%22%22">Facebook</a> <br>
-                    <a class="social" href="https://www.youtube.com/@comedyclubiitkharagpur6857/videos">Youtube</a></p>
+
             </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>

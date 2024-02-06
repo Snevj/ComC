@@ -262,5 +262,11 @@ a {
     width: 100%;
     background-color: goldenrod;
     color: white;
-    text-align: center;
+}
+.social {
+    text-align: left;
+    left: 20%;
+}
+.address{
+    text-align: right;
 }
