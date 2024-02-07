@@ -257,12 +257,32 @@ a {
 /* Slideshow container */
 .footer {
     position: static;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: goldenrod;
     color: white;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 15px;
 }
+.row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
 .social {
     text-align: left;
     left: 20%;
@@ -270,3 +290,41 @@ a {
 .address{
     text-align: right;
 }
+col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons .fa {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    margin-right: 15px;
+}
+/*<div class="social">Our socials <br>
+                <a class="social"
+                    href="https://www.instagram.com/comedy_club_iit_kharagpur?igsh=MWx5cWhzdnU0OXdteg==">Instagram</a><br>
+                <a class="social" href="https://www.facebook.com/comedyclubiitkgp?mibextid=%22%22">Facebook</a> <br>
+                <a class="social" href="https://www.youtube.com/@comedyclubiitkharagpur6857/videos">Youtube</a>
+            </div>
+            <div class="address">
+                <p>Address:-Indian Institute of Technology, Kharagpur, West Bengal</p>
+            </div>*/
+            
