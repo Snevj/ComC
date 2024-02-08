@@ -5,19 +5,53 @@ body {
 }
 
 #background {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
     display: block;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+/* Position the navbar container inside the image */
+.topnav {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: goldenrod;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {   
+    color: white;
+}
+
+.topnav a.active:hover {
+    background-color: #ddd;
+    color: rgb(219, 166, 32);
+}
+
 
 .vedant {
     display: grid;
     align-items: center;
     grid-template-columns: auto auto auto;
     column-gap: 15px;
-
 }
 
 .sayan {
@@ -116,40 +150,9 @@ a {
 #welcome_page {
     color: aliceblue;
     font-family: fantasy;
+    font-size: 14px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: goldenrod;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-    font-size: 12px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: goldenrod;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: goldenrod;
-    color: white;
-}
-
-.topnav a.active:hover {
-    background-color: #ddd;
-    color: goldenrod;
-}
 
 * {
     box-sizing: border-box
