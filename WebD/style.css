@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-family: fantasy;
     font-size: 10px;
+    padding-top: 4px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -34,7 +35,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 14px;
+    padding: 8px 8px;
     text-decoration: none;
     font-size: 12px;
 }
@@ -265,11 +266,10 @@ a {
 /* Slideshow container */
 .footer {
     position: static;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    background-color: goldenrod;
+    background-color: rgba(255, 183, 0, 0.654);
     color: white;
-    
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 15px;
@@ -287,10 +287,12 @@ a {
     padding: 10px;
 }
 .logo {
-    width: 200px;
+    width: 150px;
     margin-bottom: 0px;
 }
-
+#info {
+    margin-top: 0px;
+}
 .social {
     text-align: left;
     left: 20%;
