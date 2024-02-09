@@ -3,6 +3,15 @@
 body {
     background-color: black;
 }
+#comic_punch {
+    background-color: goldenrod;
+    color: aliceblue;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
 #background {
     width: 100%;
@@ -67,7 +76,9 @@ body {
     grid-template-columns: auto auto auto;
     column-gap: 5px;
 }
-
+.vedantimage, .sayanimage, .dsrimage, .utrimage, .anuragimage {
+    border-radius: 50%;
+}
 .utr {
     display: grid;
     align-items: center;
