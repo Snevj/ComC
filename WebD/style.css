@@ -90,22 +90,21 @@ body {
 .sameerimage,
 .kajolimage {
     border-radius: 50%;
-
+    border-style: solid;
+   border-color: aliceblue;
+   border-width: 2px;
 }
-.vedantimage:hover {
-    
-    transform: blur(10px);
-}
-.sayanimage,
-.dsrimage,
-.utrimage,
-.anuragimage,
-.manavimage,
-.karanimage,
-.riyanimage,
-.sameerimage,
+.vedantimage:hover,
+.sayanimage:hover,
+.dsrimage:hover,
+.utrimage:hover,
+.anuragimage:hover,
+.manavimage:hover,
+.karanimage:hover,
+.riyanimage:hover,
+.sameerimage:hover,
 .kajolimage:hover{
-    Transform :scale(1.2);
+    Transform :scale(1.03);
 }
 .utr {
     display: grid;
