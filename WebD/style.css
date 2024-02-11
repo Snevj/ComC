@@ -18,6 +18,10 @@ body {
     display: block;
     margin-bottom: 100px;
 }
+.othersbackground {
+    background-color: #000;
+    
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
