@@ -19,8 +19,9 @@ body {
     margin-bottom: 100px;
 }
 .othersbackground {
-    background-color: #000;
-    
+    background-color: red;
+    width: 250px;
+
 }
 
 /* Add a black background color to the top navigation */
