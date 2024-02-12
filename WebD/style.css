@@ -21,6 +21,7 @@ body {
 .othersbackground {
     background-color: red;
     width: 250px;
+    position: relative;
 
 }
 
