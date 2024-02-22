@@ -19,10 +19,10 @@ body {
     margin-bottom: 100px;
 }
 .othersbackground {
-    
+    display: block;
     width: 250px;
-    position: relative;
-
+    position: fixed;
+    
 }
 
 /* Add a black background color to the top navigation */
@@ -345,7 +345,4 @@ ul li a {
     background-color: #fff;
     margin-right: 15px;
     cursor: pointer;
-}
-.hahashima {
-    color: aliceblue;
 }
