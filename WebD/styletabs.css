@@ -5,8 +5,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 250px;
-    
+
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
@@ -44,27 +45,36 @@ body {
     background-color: #ddd;
     color: rgb(219, 166, 32);
 }
+
 .photos {
     margin-top: 100px;
 }
-.hahashima, .introsem, .gmun {
+
+.hahashima,
+.introsem,
+.gmun {
     margin-top: 50px;
     position: relative;
     width: 250px;
 }
-.hahashima_image, .gmun_image, .introsem_image {
+
+.hahashima_image,
+.gmun_image,
+.introsem_image {
     display: block;
     width: 100%;
-    margin-bottom: 20px
-    ;
+    margin-bottom: 20px;
 }
-.hahashima_overlay, .gmun_overlay, .introsem_overlay {
+
+.hahashima_overlay,
+.gmun_overlay,
+.introsem_overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgba(0, 0, 0, 0.8) ;
+    background: rgba(0, 0, 0, 0.8);
     color: aliceblue;
     font-family: sans-serif;
     display: flex;
@@ -74,22 +84,37 @@ body {
     opacity: 0;
     transition: opacity 0.25s;
 }
-.hahashima_overlay:hover, .gmun_overlay:hover, .introsem_overlay:hover {
+
+.hahashima_overlay:hover,
+.gmun_overlay:hover,
+.introsem_overlay:hover {
     opacity: 1;
 }
-.hahashima_overlay:hover, .gmun_overlay:hover, .introsem_overlay:hover > * {
+
+.hahashima_overlay:hover,
+.gmun_overlay:hover,
+.introsem_overlay:hover>* {
     transform: translateY(0);
 }
-.hahashima_overlay, .gmun_overlay, .introsem_overlay > * {
+
+.hahashima_overlay,
+.gmun_overlay,
+.introsem_overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 
 }
-.hahashima_title, .gmun_title, .introsem_title {
+
+.hahashima_title,
+.gmun_title,
+.introsem_title {
     font-size: 1em;
     font-weight: bold;
 }
-.hahashima_description, .gmun_description, .introsem_description {
+
+.hahashima_description,
+.gmun_description,
+.introsem_description {
     font-size: 0.75em;
     margin-top: 0.25em;
 }
