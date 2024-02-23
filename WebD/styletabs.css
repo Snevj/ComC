@@ -47,18 +47,18 @@ body {
 .photos {
     margin-top: 100px;
 }
-.hahashima {
-    margin-top: 100px;
+.hahashima, .introsem, .gmun {
+    margin-top: 50px;
     position: relative;
     width: 250px;
 }
-.hahashima_image {
+.hahashima_image, .gmun_image, .introsem_image {
     display: block;
     width: 100%;
     margin-bottom: 20px
     ;
 }
-.hahashima_overlay {
+.hahashima_overlay, .gmun_overlay, .introsem_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -74,22 +74,22 @@ body {
     opacity: 0;
     transition: opacity 0.25s;
 }
-.hahashima_overlay:hover {
+.hahashima_overlay:hover, .gmun_overlay:hover, .introsem_overlay:hover {
     opacity: 1;
 }
-.hahashima_overlay:hover > * {
+.hahashima_overlay:hover, .gmun_overlay:hover, .introsem_overlay:hover > * {
     transform: translateY(0);
 }
-.hahashima_overlay > * {
+.hahashima_overlay, .gmun_overlay, .introsem_overlay > * {
     transform: translateY(20px);
     transition: transform 0.25s;
 
 }
-.hahashima_title {
+.hahashima_title, .gmun_title, .introsem_title {
     font-size: 1em;
     font-weight: bold;
 }
-.hahashima_description {
+.hahashima_description, .gmun_description, .introsem_description {
     font-size: 0.75em;
     margin-top: 0.25em;
 }
