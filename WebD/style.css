@@ -70,8 +70,8 @@ body {
 .karanimage,
 .riyanimage,
 .sameerimage,
-.kajolimage {
-    border-radius: 50%;
+.kajolimage {  
+    border-radius: 50%;   
     border-style: solid;
    border-color: aliceblue;
    border-width: 2px;
