@@ -5,21 +5,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 250px;
-
 }
-
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
 }
-
 /* Position the navbar container inside the image */
 .topnav {
     position: absolute;
     margin: 20px;
     width: auto;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -35,21 +31,17 @@ body {
     background-color: #ddd;
     color: goldenrod;
 }
-
 /* Add a color to the active/current link */
 .topnav a.active {
     color: white;
 }
-
 .topnav a.active:hover {
     background-color: #ddd;
     color: rgb(219, 166, 32);
 }
-
 .photos {
     margin-top: 100px;
 }
-
 .hahashima,
 .introsem,
 .gmun {
@@ -57,7 +49,6 @@ body {
     position: relative;
     width: 390px;
 }
-
 .hahashima_image,
 .gmun_image,
 .introsem_image {
